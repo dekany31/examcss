@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  margin: 10px;
+  border: 1px dashed red;
+}
+
+body {
+  height: 100vh;
+  background-color: orange;
+  color: green;
+}
+
+body .burger {
+  background-color: #186b2d;
+  font-size: 4em;
+  border-radius: 50%;
+  padding: 10px 5px;
+  color: white;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+body .flexbox {
+  margin-top: 7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .flexbox h3 {
+  font-size: 2.5em;
+}
+
+body .flexbox input {
+  color: green;
+  background-color: white;
+  width: 30%;
+  height: 6vh;
+  margin: 2em;
+}
+
+body .flexbox .check {
+  height: 1em;
+}
+
+body .flexbox button {
+  background-color: #186b2d;
+  width: 15%;
+  height: 8vh;
+}
+
+@media (max-width: 800px) {
+  body .flexbox input {
+    width: 80%;
+  }
+  body .flexbox button {
+    width: 70%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
